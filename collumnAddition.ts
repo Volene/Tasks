@@ -1,6 +1,6 @@
 function columnAddition(...nums: number[]): number {
   let ten = 0;
-  let result = [];
+  const result = [];
   const [biggestNum] = nums.sort((a,b)=>b-a);
   
   const formatedNums = nums.map(n =>
